@@ -1,0 +1,157 @@
+body {
+  background-image: url( "{% static 'images/GenerateMusicPage.png' %}" );
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+}
+*{
+  font-family: Roboto;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.navi {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li a:hover{
+  color: black;
+  text-decoration: underline #00FFFF;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: #00FFFF;
+}
+
+#generbutt {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  background-color: black;
+  color: #00FFFF;
+  font-size: 20px;
+}
+
+#generbutt:hover {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.form-control {
+  transition: 0.3s;
+}
+
+.form-control:hover {
+  border-color: #00FFFF;
+}
+
+/* Code derived from W3Schools* (All other code is original written by Mohamed Mohamed)/
+/* The container */
+.selector {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.selector input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.selector:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.selector input:checked ~ .checkmark {
+  background-color: #00FFFF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.selector input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.selector .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: black;
+}

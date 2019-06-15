@@ -1,0 +1,118 @@
+{% load static %}
+
+body {
+  background-image: url("hpwallpaper.jpg");
+}
+
+.navi {
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li a:hover{
+  color: black;
+  text-decoration: underline #00FFFF;
+}
+
+
+.container-fluid {
+  padding-top: 1px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto;
+}
+
+hr {
+  width: 50%;
+  color: #00FFFF;
+}
+
+.finalhr {
+  width: 100%;
+}
+
+i {
+  font-size: 55px;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: #00FFFF;
+}
+
+h2 {
+  text-align: center;
+  font-family: Roboto;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+}
+
+h4 {
+  font-family: Roboto;
+}
+
+h3 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.caption{
+  font-family: Roboto;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url("hpwallpaper.jpg");
+  background-size: 1500px;
+  animation: breath 30s linear infinite
+}
