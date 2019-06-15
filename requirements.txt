@@ -1,5 +1,5 @@
 certifi==2019.3.9
-Django==2.2.1
+django>=2.2.2
 gcloud==0.17.0
 googleapis-common-protos==1.5.10
 gunicorn==19.9.0
@@ -15,7 +15,7 @@ pygame==1.9.6
 Pyrebase==3.0.27
 python-jwt==2.0.1
 pytz==2019.1
-requests==2.11.1
+requests>=2.20.0
 requests-toolbelt==0.7.0
 rsa==4.0
 setuptools==40.8.0
