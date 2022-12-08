@@ -1,4 +1,4 @@
-certifi==2019.3.9
+certifi==2022.12.7
 django>=2.2.2
 gcloud==0.17.0
 googleapis-common-protos==1.5.10
