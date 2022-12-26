@@ -21,4 +21,4 @@ rsa==4.0
 setuptools==40.8.0
 six==1.12.0
 sqlparse==0.3.0
-wheel==0.33.2
+wheel==0.38.1
